@@ -13,5 +13,4 @@ void TarjanStronglyConnectedComponents(const Graph& graph);
 Graph InvertGraph(const Graph& graph);
 
 void DepthSearch(const Graph& invertedGraph, Ids& nodeIds, Low& lowLink, OnStack& isOnStack, SCC& stronglyConnectedComponents, int& currentId, int& componentCount, int vertex);
-//void FindStronglyConnectedComponents(const Graph& invertedGraph, Ids& nodeIds, Low& lowLink, OnStack& isOnStack, SCC& stronglyConnectedComponents);
 void PrintGraph(const Graph& graph);
